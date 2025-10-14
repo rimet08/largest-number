@@ -7,11 +7,28 @@ const tbxNum3 = document.getElementById("tbxNum3");
 const txaResults = document.getElementById("txaResults");
 
 function findLargestNumber() {
-    let Num1 = tbxNum1.value;
-    let Num2 = tbxNum2.value;
-    let Num3 = tbxNum3.value;
-    txaResults.value = Num1 + Num2
-   
+    let Num1 = Number(tbxNum1.value);
+    let Num2 = Number(tbxNum2.value);
+    let Num3 = Number(tbxNum3.value);
+    
+    if (Num1>Num2) {
+     //true//
+
+    }
+    else {
+        largest = Num2;
+        //false//
+
+    }
+
+    if (largest<Num3) {
+
+    }
+
+    else {
+        largest = Num2;
+    }
 
 
+    txaResults.value = largest;
 }
