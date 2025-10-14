@@ -4,11 +4,11 @@ function main() {
 
     for (x = 0; x <= 2; x++) {
         window.alert("Enter " + x + 1 + "number of 3");
-        var number;
+        let number;
 
         number = Number(window.prompt('Enter a value for number'));
         if (x == 0) {
-            largesttNumber = number;
+            largestNumber = number;
         } else {
             if (number > largestNumber) {
                 largestNumber = number;
@@ -17,3 +17,5 @@ function main() {
     }
     window.alert("Largest number is: " + largestNumber);
 }
+
+//This is from Flowgorithm//

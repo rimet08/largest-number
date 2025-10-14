@@ -30,5 +30,5 @@ function findLargestNumber() {
     }
 
 
-    txaResults.value = largest;
+    txaResults.value = "The largest number is: " + largest;
 }
