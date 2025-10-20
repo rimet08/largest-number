@@ -1,2 +1,2 @@
 - Fix HTML code
-- Complete JS (script.js)
+- Complete JS (script.js) -> fix it
